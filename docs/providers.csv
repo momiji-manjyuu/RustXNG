@@ -269,7 +269,7 @@ valkey_server,valkey_server,true,false,false,src/engines/valkey_server.rs,,,,unr
 bing UK,bing,true,false,false,src/engines/bing.rs,,https://www.bing.com/ | https://www.bing.com/search,https://www.bing.com/search,HTML,https://www.microsoft.com/ja-jp/servicesagreement,scope_review_required,2026-11-03,review_applicable_permissions_and_reuse_scope
 bing Germany,bing,true,false,false,src/engines/bing.rs,,https://www.bing.com/ | https://www.bing.com/search,https://www.bing.com/search,HTML,https://www.microsoft.com/ja-jp/servicesagreement,scope_review_required,2026-11-03,review_applicable_permissions_and_reuse_scope
 bing Japan,bing,true,false,false,src/engines/bing.rs,,https://www.bing.com/ | https://www.bing.com/search,https://www.bing.com/search,HTML,https://www.microsoft.com/ja-jp/servicesagreement,scope_review_required,2026-11-03,review_applicable_permissions_and_reuse_scope
-google,google,false,false,true,src/engines/google.rs,,https://www.google.com/ | https://www.google.com/search | https://www.google.com{href},,unreviewed,,unreviewed,,provider_review_needed
+google,google,false,false,true,src/engines/google.rs,,https://www.google.com/ | https://www.google.com/search,,unreviewed,,unreviewed,,provider_review_needed
 google news,google_news,false,false,true,src/engines/google_news.rs,,https://news.google.com/rss/search,,unreviewed,,unreviewed,,provider_review_needed
 google_play,google_play,false,false,true,src/engines/google_play.rs,,https://play.google.com,,unreviewed,,unreviewed,,provider_review_needed
 google_images,google_images,false,false,true,src/engines/google_images.rs,,https://encrypted-tbn0.gstatic.com/images?q=tbn: | https://www.google.com/wml/search,,unreviewed,,unreviewed,,provider_review_needed

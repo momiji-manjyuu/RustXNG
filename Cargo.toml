@@ -1,6 +1,6 @@
 [package]
 name = "rustxng"
-version = "0.27.1+google.local"
+version = "0.27.1+google.local.1"
 edition = "2024"
 rust-version = "1.88"
 license = "AGPL-3.0-or-later"
