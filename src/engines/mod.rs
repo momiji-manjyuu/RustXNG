@@ -107,6 +107,14 @@ pub mod github_code;
 pub mod gitlab;
 pub mod gmx;
 pub mod goodreads;
+// Local compatibility: keep the Google adapters from dc0e6c0 on top of upstream.
+pub mod google;
+pub mod google_cse;
+pub mod google_images;
+pub mod google_news;
+pub mod google_play;
+pub mod google_scholar;
+pub mod google_videos;
 pub mod grokipedia;
 pub mod hackernews;
 pub mod hex;
@@ -275,6 +283,13 @@ pub fn build(config: &EngineConfig) -> Result<EngineHandle, String> {
         "docker_hub" => docker_hub::DockerHub::from_config(config)?,
         "duckduckgo" => duckduckgo::DuckDuckGo::from_config(config)?,
         "github" => github::GitHub::from_config(config)?,
+        "google" => google::Google::from_config(config)?,
+        "google_cse" => google_cse::GoogleCse::from_config(config)?,
+        "google_images" => google_images::GoogleImages::from_config(config)?,
+        "google_news" => google_news::GoogleNews::from_config(config)?,
+        "google_play" => google_play::GooglePlay::from_config(config)?,
+        "google_scholar" => google_scholar::GoogleScholar::from_config(config)?,
+        "google_videos" => google_videos::GoogleVideos::from_config(config)?,
         "hackernews" => hackernews::HackerNews::from_config(config)?,
         "mojeek" => mojeek::Mojeek::from_config(config)?,
         "mwmbl" => mwmbl::Mwmbl::from_config(config)?,

@@ -2245,3 +2245,58 @@ shortcut = "bjp"
 categories = ["general", "web"]
 mkt = "ja-JP"
 disabled = true
+
+
+# Local Google adapters preserved from dc0e6c0. See docs/LOCAL-GOOGLE.md.
+
+[[engines]]
+name = "google"
+engine = "google"
+shortcut = "go"
+categories = ["general", "web"]
+
+[[engines]]
+name = "google news"
+engine = "google_news"
+shortcut = "gnews"
+categories = ["news"]
+
+[[engines]]
+name = "google_play"
+engine = "google_play"
+categories = ["it", "apps"]
+
+[[engines]]
+name = "google_images"
+engine = "google_images"
+shortcut = "goi"
+categories = ["images", "web"]
+paging = true
+time_range_support = true
+
+[[engines]]
+name = "google_scholar"
+engine = "google_scholar"
+shortcut = "gos"
+categories = ["science", "scientific publications"]
+paging = true
+time_range_support = true
+disabled = true  # unverified; remove when confirmed working
+
+[[engines]]
+name = "google_videos"
+engine = "google_videos"
+shortcut = "gov"
+categories = ["videos", "web"]
+paging = true
+time_range_support = true
+disabled = true  # unverified; remove when confirmed working
+
+[[engines]]
+name = "google_cse"
+engine = "google_cse"
+shortcut = "goc"
+categories = ["general", "web"]
+paging = true
+time_range_support = true
+disabled = true  # unverified; remove when confirmed working

@@ -20,7 +20,7 @@ Yahoo! JAPANとMojeekのアダプターは残します。利用者が明示的�
 
 ## 全設定エントリの台帳
 
-[機械可読CSV](providers.csv)は同梱設定の全270エントリを列挙します。[確認済み情報](provider-policy.json)から、
+[機械可読CSV](providers.csv)はローカルの Google 拡張を含む全277エントリを列挙します（[ローカル版の説明](LOCAL-GOOGLE.md)）。[確認済み情報](provider-policy.json)から、
 接続方式・規約URL・確認日・判断を載せます。それ以外は `unreviewed` とし、許可済みとはみなしません。
 この台帳を作成したことは、全プロバイダーの利用条件の確認完了を意味しません。
 
